@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_activity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvResult"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/splashprimary"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_22ssp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:background="@color/splashprimary"
+        android:padding="@dimen/_30sdp"
+        android:src="@drawable/warning" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/bg_activity">
+
+        <com.nandroidex.texticon.FontTextView
+            android:id="@+id/ibHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@color/splashprimary"
+            android:gravity="center"
+            android:text="@string/fa_home_solid"
+            android:textSize="@dimen/_24ssp"
+            app:solid_icon="true" />
+
+        <com.nandroidex.texticon.FontTextView
+            android:id="@+id/ibReplay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@color/splashprimary"
+            android:gravity="center"
+            android:text="@string/fa_reply_solid"
+            android:textSize="@dimen/_24ssp"
+            app:solid_icon="true" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

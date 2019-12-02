@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="tic">TIC</string>
+    <string name="tac">TAC</string>
+    <string name="toe">TOE</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="online">ONLINE</string>
+    <string name="two_player">TWO PLAYER</string>
+    <string name="v_s_comp">V/S COMP</string>
+    <string name="guest">GUEST</string>
+
+
+    <string name="log_out">Log out</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="bot">Bot</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="select_difficulty">Select Difficulty</string>
+    <string name="winner">Winner</string>
+    <string name="you_lose">You Lose</string>
+    <string name="tie">Tie</string>
+</resources>
