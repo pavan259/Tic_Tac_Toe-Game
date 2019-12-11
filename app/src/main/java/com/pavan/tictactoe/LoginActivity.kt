@@ -52,6 +52,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
             signIn()
         }
     }
+
+
     private fun configureGoogleSignIn() {
         mGoogleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
@@ -60,6 +62,12 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         mGoogleSignInClient = GoogleSignIn.getClient(this, mGoogleSignInOptions)
 
     }
+
+    /**
+     * FUNCTION COMMENT
+     *
+     * @see "open google accounts chooser"
+     */
     fun signIn() {
         val signInIntent: Intent = mGoogleSignInClient.signInIntent
         startActivityForResult(signInIntent, RC_SIGN_IN)
@@ -81,7 +89,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-
+    /**
+     * FUNCTION COMMENT
+     *
+     * @see "Google login"
+     */
     private fun firebaseAuthWithGoogle(acct: GoogleSignInAccount) {
         val credential = GoogleAuthProvider.getCredential(acct.idToken, null)
         firebaseAuth.signInWithCredential(credential).addOnCompleteListener {
@@ -103,7 +115,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-
+    /**
+     * FUNCTION COMMENT
+     *
+     * @see "Guest login"
+     */
     override fun onClick(v: View) {
         when (v.id) {
            // R.id.sign_in_button -> signIn()

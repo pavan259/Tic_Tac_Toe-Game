@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/waiting_for_player"
+        android:textSize="@dimen/_22ssp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/waiting" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCountDown"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:text="00:60"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_22ssp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

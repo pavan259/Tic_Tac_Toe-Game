@@ -21,6 +21,12 @@ class SplashActivity : AppCompatActivity() {
             finish()
         },4000)
     }
+
+    /**
+     * FUNCTION COMMENT
+     *
+     * @see "open login screen"
+     */
     private fun openLogin() {
         val intent = Intent(this@SplashActivity, LoginActivity::class.java)
         startActivity(intent)

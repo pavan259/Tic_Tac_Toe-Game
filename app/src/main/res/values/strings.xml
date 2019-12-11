@@ -24,4 +24,7 @@
     <string name="winner">Winner</string>
     <string name="you_lose">You Lose</string>
     <string name="tie">Tie</string>
+    <string name="email">Email</string>
+    <string name="invite">Invite</string>
+    <string name="waiting_for_player">Waiting for Player</string>
 </resources>

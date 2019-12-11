@@ -23,6 +23,12 @@ class HomeScreenActivityGuest : AppCompatActivity(), View.OnClickListener {
 
         }
     }
+    /**
+     * FUNCTION COMMENT
+     *
+     * @param i: Int
+     * @see "handle offline game selection and open board"
+     */
     private fun openBoard(i: Int) {
         val intent = Intent(this@HomeScreenActivityGuest, MainActivity::class.java)
         intent.putExtra("gameType", i)
