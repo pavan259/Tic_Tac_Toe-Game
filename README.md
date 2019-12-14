@@ -53,11 +53,11 @@ interface APIService {
 
 ## Using the application
 
-# Logging In
+### Logging In
 * User just need to follow steps as shown in images below:
 ![Logging in](https://user-images.githubusercontent.com/44563119/70841074-e8904100-1ddc-11ea-816e-23eccc9a5dfb.png)
 
-# Playing Online Game
+### Playing Online Game
 * Player 1 will click on the "Online" button to start the online game and follow the steps shown in images below:
 ![Sending Request](https://user-images.githubusercontent.com/44563119/70841281-d2838000-1dde-11ea-9d14-d794b845949a.png)
 
@@ -65,7 +65,7 @@ interface APIService {
 ![Player2Receive](https://user-images.githubusercontent.com/44563119/70843289-70824500-1df5-11ea-99ed-6c15cbee4fb0.png)
 
 
-# Winner Screen
+### Winner Screen
 * When a player wins a dialog box will pop-up showing the winners name and profile picture as shown in figure.
 ![PlayerWin](https://user-images.githubusercontent.com/44563119/70843325-edadba00-1df5-11ea-9067-cfce668fc688.png)
 
@@ -77,11 +77,11 @@ interface APIService {
 * [TextIcon](https://github.com/NAndroidEx/TextIcon) - Used to generate icons.
 
 
-## Authors
+## Author
 
 * **PAVAN PATEL** 
 
-Please feel free to add features in this game applications.
+Please feel free to add features in this android game application.
 -Thank You
 
 
